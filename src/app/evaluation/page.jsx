@@ -28,9 +28,9 @@ export default function FreeEvaluationPage() {
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8 mt-10">
-                    <Card title="✅ Determine Eligibility" description="We analyze your academic background, research, or achievements to identify whether you qualify for the EB-2 NIW or EB-1A." />
-                    <Card title="💡 Discover Strengths" description="Uncover the strongest parts of your profile and learn what sets you apart as a candidate for a U.S. green card." />
-                    <Card title="🛠 Expert Feedback" description="Receive strategic guidance and honest feedback to help you understand your petition potential and path forward." />
+                    <Card title="Determine Eligibility" description="We analyze your academic background, research, or achievements to identify whether you qualify for the EB-2 NIW or EB-1A." />
+                    <Card title="Discover Strengths" description="Uncover the strongest parts of your profile and learn what sets you apart as a candidate for a U.S. green card." />
+                    <Card title="Expert Feedback" description="Receive strategic guidance and honest feedback to help you understand your petition potential and path forward." />
                 </div>
             </section>
 
@@ -52,9 +52,9 @@ export default function FreeEvaluationPage() {
             <section className="py-16 px-6 max-w-5xl mx-auto text-center space-y-6">
                 <h2 className="text-3xl md:text-4xl font-semibold text-[#0c1e3b]">What You’ll Receive</h2>
                 <div className="grid md:grid-cols-3 gap-8 mt-8">
-                    <Card title="📄 CV/Resume Review" description="We assess your CV in detail to highlight strengths and identify any gaps." />
-                    <Card title="📊 Honest Feedback" description="Straightforward, expert feedback on your case potential and areas to improve." />
-                    <Card title="📦 Service Suggestions" description="We recommend the most suitable package—whether full support or targeted help." />
+                    <Card title="CV/Resume Review" description="We assess your CV in detail to highlight strengths and identify any gaps." />
+                    <Card title="Honest Feedback" description="Straightforward, expert feedback on your case potential and areas to improve." />
+                    <Card title="Service Suggestions" description="We recommend the most suitable package—whether full support or targeted help." />
                 </div>
                 <p className="text-gray-600">Our team responds within <strong>24 business hours</strong>.</p>
             </section>

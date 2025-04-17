@@ -36,10 +36,9 @@ export default function Header() {
       {menuOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2">
           <Link href="/" className="block text-blue-700 font-semibold">Home</Link>
-          <Link href="/our-firm" className="block text-gray-700">Our Firm</Link>
+          <Link href="/aboutus" className="block text-gray-700">About Us</Link>
           <Link href="/services" className="block text-gray-700">Services</Link>
-          <Link href="/free-evaluation" className="block text-gray-700">Free Evaluation</Link>
-          <Link href="/info-hub" className="block text-gray-700">Info Hub</Link>
+          <Link href="/evaluation" className="block text-gray-700">Free Evaluation</Link>
           <Link href="/contact">
             <button className="w-full mt-2 bg-[#1ac194] text-white px-4 py-2 rounded-md hover:bg-[#17b897] transition">Contact us</button>
           </Link>

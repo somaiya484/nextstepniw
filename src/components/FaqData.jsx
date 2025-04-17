@@ -4,7 +4,7 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
     {
-        question: '📌 1. What is the EB-2 NIW (National Interest Waiver)?',
+        question: '1. What is the EB-2 NIW (National Interest Waiver)?',
         answer: `The EB-2 NIW is a U.S. green card category that allows individuals with an advanced degree or exceptional ability to self-petition for permanent residency without employer sponsorship.
 To qualify, you must:
 - Hold a Master’s degree (or higher) or demonstrate exceptional ability.
@@ -13,7 +13,7 @@ To qualify, you must:
 - Show that waiving the labor certification process would benefit the U.S.`
     },
     {
-        question: '📌 2. What is the EB-1A (Extraordinary Ability) category?',
+        question: '2. What is the EB-1A (Extraordinary Ability) category?',
         answer: `The EB-1A is for individuals who have achieved sustained national or international acclaim in their field. It allows you to self-petition without a job offer. You must meet at least 3 out of 10 USCIS criteria such as:
 - Receiving prestigious awards
 - Publishing original research
@@ -22,11 +22,11 @@ To qualify, you must:
 - Membership in selective professional associations`
     },
     {
-        question: '📌 3. Can I apply for a green card without an employer?',
+        question: '3. Can I apply for a green card without an employer?',
         answer: `Yes. Both EB-2 NIW and EB-1A are self-petition categories, meaning no employer sponsorship or job offer is required. Ideal for independent researchers, entrepreneurs, freelancers, and consultants.`
     },
     {
-        question: '📌 4. What services do you offer?',
+        question: '4. What services do you offer?',
         answer: `✅ Full Petition Preparation Package – We handle everything: drafting, evidence organization, recommendation letters, RFE response, and post-approval support.
 ✅ Custom/Targeted Services – For clients needing help with specific parts like:
 - Editing self-written petitions
@@ -36,26 +36,26 @@ To qualify, you must:
 ✅ Free CV evaluation and eligibility consultation`
     },
     {
-        question: '📌 5. How much do your services cost?',
+        question: '5. How much do your services cost?',
         answer: `We offer fixed pricing for custom services. Full Petition Packages are priced based on the complexity and strength of your case—but are far more affordable than traditional law firms. You’ll get a personalized offer after we review your CV.`
     },
     {
-        question: '📌 6. How long does the petition process take?',
+        question: '6. How long does the petition process take?',
         answer: `Full petition prep takes 3–6 weeks depending on document availability and communication speed. After submission, USCIS times vary (6–12 months for NIW, faster for EB-1A with Premium Processing). RFE support is included in full packages.`
     },
     {
-        question: '📌 7. What happens if I receive a Request for Evidence (RFE)?',
+        question: '7. What happens if I receive a Request for Evidence (RFE)?',
         answer: `No need to worry. Full Package clients receive free RFE drafting support. We’ll analyze USCIS feedback, strengthen your petition, and craft a strategic response.`
     },
     {
-        question: '📌 8. How do I get started?',
+        question: '8. How do I get started?',
         answer: `It’s simple:
 - Email your CV to info@nextstepniw.com or nextstepniw@gmail.com
 - Or message us on WhatsApp: +82 10-8814-2971
 We'll assess your eligibility and recommend the best package.`
     },
     {
-        question: '📌 9. How quickly will I hear back after contacting you?',
+        question: '9. How quickly will I hear back after contacting you?',
         answer: `We reply to all inquiries within 24 business hours with expert guidance and personalized communication.`
     }
 ];

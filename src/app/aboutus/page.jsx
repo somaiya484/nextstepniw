@@ -33,7 +33,7 @@ export default function AboutPage() {
 
         {/* Expertise Section */}
         <div className="bg-gray-50 rounded-2xl shadow-md p-8">
-          <h2 className="text-2xl font-bold mb-4">🧠 A Team of Experts—With Real Experience</h2>
+          <h2 className="text-2xl font-bold mb-4">A Team of Experts—With Real Experience</h2>
           <p>
             Each of our consultants is a distinguished researcher holding a PhD, with strong academic credentials. What sets us apart is that every member has personally succeeded with an EB-2 NIW or EB-1A self-petition. We understand the challenges and use our insight to help you craft a compelling and credible case.
           </p>
@@ -41,7 +41,7 @@ export default function AboutPage() {
 
         {/* Craftsmanship Section */}
         <div className="bg-white border-l-4 border-indigo-500 p-6 shadow-md">
-          <h2 className="text-2xl font-bold mb-4">✍️ Craftsmanship in Petition Writing</h2>
+          <h2 className="text-2xl font-bold mb-4">Craftsmanship in Petition Writing</h2>
           <p>
             A successful self-petition relies on a well-written, clearly structured, evidence-backed narrative. We don’t use templates. Instead, we:
           </p>
@@ -55,14 +55,14 @@ export default function AboutPage() {
 
         {/* Core Values */}
         <div className="bg-indigo-50 p-8 rounded-2xl shadow-md">
-          <h2 className="text-2xl font-bold mb-4">🎯 Our Commitment to Quality and Success</h2>
+          <h2 className="text-2xl font-bold mb-4">Our Commitment to Quality and Success</h2>
           <p>
             Our work is guided by three values:
           </p>
           <ul className="list-inside list-disc mt-4 space-y-2 font-medium">
-            <li>✅ <strong>Excellence</strong> — Every document we craft is high-quality and precise</li>
-            <li>✅ <strong>Integrity</strong> — Honest assessments, transparent pricing, no false promises</li>
-            <li>✅ <strong>Dedication</strong> — Your success is our success</li>
+            <li><strong>Excellence</strong> — Every document we craft is high-quality and precise</li>
+            <li><strong>Integrity</strong> — Honest assessments, transparent pricing, no false promises</li>
+            <li><strong>Dedication</strong> — Your success is our success</li>
           </ul>
           <p className="mt-4">
             Since 2024, we’ve helped countless professionals succeed with a tailored, strategic, and high-impact petition process.
@@ -71,7 +71,7 @@ export default function AboutPage() {
 
         {/* Mission Section */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">🤝 Your Immigration Journey, Our Shared Mission</h2>
+          <h2 className="text-2xl font-bold mb-4">Your Immigration Journey, Our Shared Mission</h2>
           <p>
             Whether you’re just exploring your options or ready to submit a petition, we guide you every step—from eligibility to approval. With us, you’re never alone in your U.S. immigration journey.
           </p>
