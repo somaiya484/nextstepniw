@@ -23,14 +23,6 @@ const Pagecontact = () => {
                 >
                     WhatsApp
                 </a>
-                <a
-                    href="https://www.nextstepniw.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-8 py-3 bg-gray-800 text-white font-medium rounded-full shadow hover:bg-gray-900 transition duration-300"
-                >
-                    Visit Website
-                </a>
             </div>
 
         </div>

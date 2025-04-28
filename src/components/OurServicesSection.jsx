@@ -47,7 +47,7 @@ export default function HomeServicesSection() {
       <div className="max-w-6xl mx-auto">
         {/* Section Heading */}
         <div className="text-center max-w-4xl mx-auto mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
           <p className="text-lg text-gray-600 leading-relaxed">
             At <span className="font-semibold text-[#16225c]">Next Step NIW</span>, we provide expert-driven support to help professionals, researchers, and entrepreneurs secure U.S. green cards via the EB-2 NIW and EB-1A pathways.
           </p>

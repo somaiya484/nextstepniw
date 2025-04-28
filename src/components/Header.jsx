@@ -1,6 +1,5 @@
 'use client';
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 
@@ -11,13 +10,14 @@ export default function Header() {
     <header className="bg-white shadow-sm w-full z-50">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/">
-          <img src="/Next-Step-NIW.png" alt="Logo" width={60} height={60} />
+        <Link href="/" className='flex justify-center items-center'>
+          <img src="/Next-Step-NIW.png" alt="Logo" width={45} height={45} />
+          <h1 className='text-2xl text-[#16225c]'>NextStepNIW</h1>
         </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-6 items-center">
-          <Link href="/" className="text-[#383f65] font-semibold hover:underline">Home</Link>
+          <Link href="/" className="text-[#383f65] hover:underline">Home</Link>
           <Link href="/aboutus" className="text-gray-700 hover:text-[#1ac194]">About Us</Link>
           <Link href="/services" className="text-gray-700 hover:text-[#1ac194]">Services</Link>
           <Link href="/evaluation" className="text-gray-700 hover:text-[#1ac194]">Free CV Evaluation</Link>
@@ -35,7 +35,7 @@ export default function Header() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2">
-          <Link href="/" className="block text-blue-700 font-semibold">Home</Link>
+          <Link href="/" className="block text-blue-700">Home</Link>
           <Link href="/aboutus" className="block text-gray-700">About Us</Link>
           <Link href="/services" className="block text-gray-700">Services</Link>
           <Link href="/evaluation" className="block text-gray-700">Free Evaluation</Link>

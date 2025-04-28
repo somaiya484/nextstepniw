@@ -7,7 +7,7 @@ export default function FreeEvaluationPage() {
 
             <section className="relative flex items-center justify-center h-[450px] overflow-hidden bg-cover bg-center bg-[url('/why0choose-us.jpg')] text-center text-white">
                 {/* Dark overlay */}
-                <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
+                <div className="absolute inset-0 bg-black/40  z-0"></div>
 
                 {/* Text content above the overlay */}
                 <div className="relative z-10 max-w-5xl mx-auto">
@@ -89,15 +89,6 @@ export default function FreeEvaluationPage() {
                         WhatsApp: +82 10-8814-2971
                     </a>
                 </div>
-
-                <a
-                    href="https://www.nextstepniw.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block px-8 py-3 bg-gray-800 text-white font-medium rounded-full shadow hover:bg-gray-900 transition duration-300 text-sm sm:text-base"
-                >
-                    Visit Website
-                </a>
             </div>
 
         </div>

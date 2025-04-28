@@ -3,6 +3,7 @@ import FreeEvaluationSection from "@/components/FreeEvaluationSection";
 import HeroBanner from "@/components/HeroBanner";
 import NewsMarquee from "@/components/NewsMarquee";
 import OurServicesSection from "@/components/OurServicesSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import WhyChooseSection from "@/components/WhyChooseSection";
 import Image from "next/image";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <OurServicesSection></OurServicesSection>
       <FreeEvaluationSection></FreeEvaluationSection>
       <WhyChooseSection></WhyChooseSection>
+      <TestimonialsSection></TestimonialsSection>
       <FAQ></FAQ>
     </section>
   );

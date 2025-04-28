@@ -69,24 +69,24 @@ const FAQ = () => {
 
     return (
         <section className="px-4 py-16 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-[#0c1e3b] mb-10">Frequently Asked Questions (FAQ)</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-[#0c1e3b] mb-10">Frequently Asked Questions (FAQ)</h2>
             <p className="text-center text-gray-600 max-w-3xl mx-auto mb-8">
                 At Next Step NIW, we know that immigration is a big step—and you likely have many questions along the way. Below are answers to some of the most common questions we receive from clients. If your question isn't listed here, feel free to reach out. We’re always happy to help.
             </p>
             <div className="space-y-4">
                 {faqs.map((faq, index) => (
-                    <div key={index} className="border border-gray-200 rounded-lg overflow-hidden transition-shadow duration-300 shadow hover:shadow-lg bg-white">
+                    <div key={index} className="border border-gray-200 rounded-lg overflow-hidden transition-shadow duration-300 shadow hover:shadow-lg bg-white dark:bg-[#1a202c] dark:border-gray-700">
                         <button
                             onClick={() => toggle(index)}
-                            className="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-[#0c1e3b] hover:bg-gray-100 transition-colors duration-300"
+                            className="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-medium text-[#0c1e3b] dark:text-white hover:bg-gray-100 dark:hover:bg-[#2d3748] transition-colors duration-300"
                         >
                             <span>{faq.question}</span>
                             <ChevronDown
-                                className={`h-5 w-5 text-[#0c1e3b] transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`}
+                                className={`h-5 w-5 text-[#0c1e3b] dark:text-white transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`}
                             />
                         </button>
                         <div
-                            className={`px-6 pt-0 pb-4 text-gray-700 text-base whitespace-pre-line transition-all duration-500 ease-in-out ${openIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
+                            className={`px-6 pt-0 pb-4 text-gray-700 dark:text-gray-300 text-base whitespace-pre-line transition-all duration-500 ease-in-out ${openIndex === index ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
                                 }`}
                         >
                             {faq.answer}
@@ -94,7 +94,6 @@ const FAQ = () => {
                     </div>
                 ))}
             </div>
-
 
             <div className="mt-20 bg-[#0c1e3b] text-white px-4 py-10 sm:px-6 md:px-10 rounded-lg shadow-lg max-w-5xl mx-auto text-center">
                 <h3 className="text-2xl sm:text-3xl font-bold mb-4">Still Have Questions?</h3>
@@ -125,8 +124,6 @@ const FAQ = () => {
                     </a>
                 </div>
             </div>
-
-
         </section>
     );
 };

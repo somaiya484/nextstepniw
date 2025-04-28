@@ -21,7 +21,7 @@ export default function Services() {
             {/* Hero Section with Video Background */}
             <section className="relative flex items-center justify-center  h-[450px] overflow-hidden  bg-cover bg-center bg-[url('/our0services.jpg')]">
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-black opacity-70"></div>
+                <div className="absolute inset-0 bg-black/30 "></div>
                 {/* Animated Hero Text */}
                 <motion.div
                     className="relative z-10 text-center px-4"

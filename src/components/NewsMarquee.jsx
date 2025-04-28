@@ -23,7 +23,7 @@ export default function NewsMarquee() {
           pauseOnHover={true}
           className="text-black font-medium text-sm whitespace-nowrap px-4"
         >
-          According to the January 2025 US Visa Bulletin, the Date for Filing Chart shows...
+          Next Step NIW — Full & Customized EB-2 NIW and EB-1A Packages Available Now
         </Marquee>
       </div>
 

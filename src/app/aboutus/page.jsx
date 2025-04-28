@@ -7,7 +7,7 @@ export default function AboutPage() {
 
       <section className="relative flex items-center justify-center h-[450px] overflow-hidden bg-cover bg-center bg-[url('/about-next-step-NIW.jpg')] text-center text-white">
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
+        <div className="absolute inset-0 bg-black/40  z-0"></div>
 
         {/* Text content above the overlay */}
         <div className="relative z-10 max-w-5xl mx-auto">
