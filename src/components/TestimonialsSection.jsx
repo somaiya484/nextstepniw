@@ -1,4 +1,5 @@
 import { Quote } from 'lucide-react';
+import Link from 'next/link';
 
 const testimonials = [
   {
@@ -34,11 +35,12 @@ export default function TestimonialsSection() {
           Hear directly from those who trusted us with their immigration journey—and succeeded through expert guidance and care.
         </p>
 
+        {/* Testimonials Grid */}
         <div className="grid gap-10 md:grid-cols-2">
           {testimonials.map((testimonial, idx) => (
             <div
               key={idx}
-              className="relative bg-white border border-gray-200 p-10 rounded-xl shadow-lg hover:shadow-xl transition-all duration-400 transform hover:-translate-y-1 flex flex-col"
+              className="relative bg-white border border-gray-200 p-10 rounded-xl shadow-lg hover:shadow-xl flex flex-col"
             >
               {/* Top Icon */}
               <div className="absolute -top-6 left-6 bg-blue-100 p-2 rounded-full">
@@ -59,6 +61,16 @@ export default function TestimonialsSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* CTA Button */}
+        <div className="mt-16">
+          <Link
+            href="/testimonials"
+            className="inline-block bg-[#0c1e3b] text-white text-base md:text-lg font-semibold py-3 px-8 rounded-full shadow-md hover:bg-[#132c57] transition-all duration-300"
+          >
+            View All Testimonials
+          </Link>
         </div>
 
       </div>

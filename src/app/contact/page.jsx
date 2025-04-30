@@ -30,7 +30,7 @@ export default function Contact() {
               {/* Email 2 */}
               <div className="flex items-center space-x-3 text-gray-600">
                 <span className="text-2xl"></span>
-                <span className="text-lg">Email: <a href="mailto:info@nextstepniw.com" className="font-semibold text-blue-600 hover:underline">info@nextstepniw.com</a></span>
+                <span className="text-lg">Email: <a href="mailto:nextstepniw@gmail.com" className="font-semibold text-blue-600 hover:underline">nextstepniw@gmail.com</a></span>
               </div>
 
               {/* WhatsApp */}

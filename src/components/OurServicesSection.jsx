@@ -58,7 +58,7 @@ export default function HomeServicesSection() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-transform duration-300"
+              className="bg-white border border-gray-200 rounded p-6 shadow-lg hover:shadow-xl"
             >
               <div className="mb-4">{service.icon}</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">{service.title}</h3>

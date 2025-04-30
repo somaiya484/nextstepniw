@@ -2,17 +2,16 @@ import Link from 'next/link';
 import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
-  const logoSrc = '/logoFooter.png';
+  const logoSrc = '/Primary Logo-01.png';
   const message = 'Thank you for visiting Next Step NIW. We’re here to help you navigate your path to U.S. permanent residency and achieve your goals!';
   const services = [
-    { name: 'Why Choose Us', link: '/services/full-petition' },
-    { name: 'Testimonials', link: '/services/custom-targeted' },
-    { name: 'FAQ', link: '/services/cv-evaluation' },
+    { name: 'Why Choose Us', link: '/#why-choose-us' },
+    { name: 'Testimonials', link: '/testimonials' },
+    { name: 'Free CV Evaluation', link: '/evaluation' },
   ];
   const companyLinks = [
     { name: 'About Us', link: '/aboutus' },
     { name: 'Services', link: '/services' },
-    { name: 'Free CV Evaluation', link: '/evaluation' },
     { name: 'Privacy Policy', link: '/privacypolicy' }
   ];
   const contact = [
@@ -25,7 +24,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <div className="text-center md:text-left">
           <Link href='/'>
-            <img src="/Next-Step-NIW.png" alt="Logo" width={50} height={50} />
+            <img src="/Primary Logo-01.png" alt="Logo" width={150} height={150} />
 
           </Link>
           <p className='mt-5 md:pr-10'>
@@ -33,7 +32,7 @@ const Footer = () => {
           </p>
         </div>
         <nav className="text-center md:text-right">
-          <h6 className="footer-title text-lg font-semibold mb-4">NextSetpNIW</h6>
+          <h6 className="footer-title text-lg font-semibold mb-4">Next Setp NIW</h6>
           <ul>
             {services.map(service => (
               <li key={service.name}>
@@ -79,7 +78,7 @@ const Footer = () => {
 
       <div className="flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col mt-10">
         <p className="caption text-n-4 lg:block">
-          © {new Date().getFullYear()} NextSetpNIW | All rights reserved by NextSetpNIW.
+          © {new Date().getFullYear()} Next Setp NIW | All rights reserved by Next Setp NIW.
         </p>
       </div>
     </footer>

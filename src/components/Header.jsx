@@ -7,12 +7,11 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-sm w-full z-50">
+    <header className="bg-white shadow-sm w-full z-50  pb-2 mb-2">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className='flex justify-center items-center'>
-          <img src="/Next-Step-NIW.png" alt="Logo" width={45} height={45} />
-          <h1 className='text-2xl text-[#16225c]'>NextStepNIW</h1>
+          <img src="/Primary Logo-01.png" alt="Logo" width={140} height={140} />
         </Link>
 
         {/* Desktop Menu */}
@@ -20,6 +19,7 @@ export default function Header() {
           <Link href="/" className="text-[#383f65] hover:underline">Home</Link>
           <Link href="/aboutus" className="text-gray-700 hover:text-[#1ac194]">About Us</Link>
           <Link href="/services" className="text-gray-700 hover:text-[#1ac194]">Services</Link>
+          <Link href="/testimonials" className="text-gray-700 hover:text-[#1ac194]">Testimonials</Link>
           <Link href="/evaluation" className="text-gray-700 hover:text-[#1ac194]">Free CV Evaluation</Link>
           <Link href="/contact">
             <button className="bg-[#1ac194] text-white px-4 py-2 rounded-md hover:bg-[#17b897] transition cursor-pointer">Contact us</button>
@@ -39,6 +39,7 @@ export default function Header() {
           <Link href="/aboutus" className="block text-gray-700">About Us</Link>
           <Link href="/services" className="block text-gray-700">Services</Link>
           <Link href="/evaluation" className="block text-gray-700">Free Evaluation</Link>
+          <Link href="/testimonials" className="block text-gray-700">Testimonials</Link>
           <Link href="/contact">
             <button className="w-full mt-2 bg-[#1ac194] text-white px-4 py-2 rounded-md hover:bg-[#17b897] transition">Contact us</button>
           </Link>

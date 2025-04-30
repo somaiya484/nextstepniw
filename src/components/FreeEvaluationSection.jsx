@@ -22,7 +22,7 @@ export default function FreeEvaluationSection() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="mailto:info@nextstepniw.com"
-              className="bg-[#16225c] hover:bg-[#222535] text-white px-6 py-3 rounded-lg font-semibold text-center"
+              className="bg-[#foo] hover:bg-[#222535] text-white px-6 py-3 rounded-lg font-semibold text-center"
             >
               Send CV Now
             </a>

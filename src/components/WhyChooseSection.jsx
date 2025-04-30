@@ -35,7 +35,7 @@ const features = [
 
 export default function WhyChooseUsSection() {
   return (
-    <section className="bg-gray-50 py-20 px-6 md:px-10 lg:px-16">
+    <section id='#why-choose-us' className="bg-gray-50 py-20 px-6 md:px-10 lg:px-16">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-[#0c1e3b] mb-6">Why Choose Next Step NIW?</h2>
         <p className="text-lg text-gray-700 mb-12 max-w-3xl mx-auto">

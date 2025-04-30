@@ -187,12 +187,8 @@ export default function Services() {
                 </motion.section>
 
                 {/* Client Journey Timeline */}
-                <motion.section
+                <section
                     className="max-w-4xl mx-auto"
-                    variants={fadeInUp}
-                    initial="initial"
-                    animate="animate"
-                    transition={{ delay: 0.8 }}
                 >
                     <h2 className="text-3xl font-bold text-center mb-8">Your Journey with Us</h2>
                     <ol className="relative border-l-4 border-blue-500 pl-8 space-y-8">
@@ -205,21 +201,18 @@ export default function Services() {
                             "USCIS Review (with RFE support if needed)",
                             "Approval & Green Card Filing (IVP or I-485 consultation)"
                         ].map((step, index) => (
-                            <motion.li
+                            <li
                                 key={index}
                                 className="relative"
-                                whileInView={{ opacity: 1, x: 0 }}
-                                initial={{ opacity: 0, x: -50 }}
-                                transition={{ duration: 0.5, delay: index * 0.1 }}
                             >
                                 <div className="absolute -left-5 top-0 w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold">
                                     {index + 1}
                                 </div>
                                 <p className="ml-8 text-lg">{step}</p>
-                            </motion.li>
+                            </li>
                         ))}
                     </ol>
-                </motion.section>
+                </section>
 
                 {/* Call to Action */}
                 <motion.section
