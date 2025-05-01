@@ -3,40 +3,27 @@ import React from 'react'
 
 const testimonials = [
   {
-    name: 'Dr. M. Islam',
-    title: 'Ph.D., South Korea | EB2-NIW Approved',
-    quote:
-      `Working with Next Step NIW was one of the best decisions I made during my immigration journey. Their team was incredibly knowledgeable, detail-oriented, and genuinely invested in my success.
-
-Thanks to their expertise, my EB2-NIW petition was approved without an RFE. What impressed me most was how they personalized my case, highlighting my research and academic contributions in a way that truly aligned with USCIS expectations. On top of that, their affordable pricing made it possible for me to access premium-level service without financial strain.
-
-I wholeheartedly recommend Next Step NIW to any professional or researcher seeking a smooth and successful green card process.`
+    name: "Dr. M. Islam",
+    title: "Ph.D., South Korea | EB2-NIW Approved",
+    text: "Working with Next Step NIW was one of the best decisions I made during my immigration journey. Their team was incredibly knowledgeable, detail-oriented, and genuinely invested in my success. Thanks to their expertise, my EB2-NIW petition was approved without an RFE. I wholeheartedly recommend them to any professional or researcher seeking a smooth and successful green card process."
   },
   {
-    name: 'M. A. Rahman',
-    title: 'Ph.D. Candidate in Agriculture, Arkansas, USA | EB2-NIW Approved',
-    quote:
-      `I am thrilled to share that my NIW EB2 petition has been officially approved, thanks to the outstanding assistance I received.
-
-The team worked incredibly fast, completing my petition efficiently without compromising quality. Every document, every recommendation, every argument was crafted strategically. What impressed me even more was the affordable pricing—transparent, fair, and much lower than many other options.
-
-Thanks to their exceptional guidance, I achieved my NIW EB2 approval smoothly and faster than I expected.`
+    name: "M. A. Rahman",
+    title: "Ph.D. Candidate, USA | EB2-NIW Case Under Review",
+    text: "Next Step NIW has been an incredible partner in my EB2-NIW journey. They guided me through evidence gathering and prepared a compelling petition. Their professionalism and attention to detail made the process feel manageable. I highly recommend them to researchers and graduate students alike.",
   },
   {
-    name: 'S. N. Chowdhury',
-    title: 'Doctor of Business Administration (DBA) Student, USA | EB2-NIW Case Under Review',
-    quote:
-      `As a DBA student in the U.S., I was unsure whether I qualified for the EB2-NIW category—but Next Step NIW changed everything.
-
-From the very beginning, their team provided clear, honest guidance and a personalized strategy based on my academic background and research interests. They were responsive, professional, and made the entire process feel less overwhelming. Highly recommended!`
+    name: "M. A. H.",
+    title: "Ph.D. Candidate, USA | EB2-NIW Case Under Review",
+    text: "Affordability and flexibility were critical for me—and Next Step NIW delivered. They offered transparent service, strong petition preparation, and a flexible payment plan that reduced financial stress. I’m grateful for their professionalism and empathy throughout the journey.",
   },
   {
-    name: 'M. A. H.',
-    title: 'Ph.D. Candidate, USA | EB2-NIW Case Under Review',
-    quote:
-      `As a Ph.D. candidate in the U.S., finding a team that truly understands research and academic work was critical for my NIW petition—and Next Step NIW impressed me from the start. Their deep knowledge of the EB2-NIW process gave me complete confidence. They carefully analyzed my achievements and structured a compelling petition. What also stood out was their flexible, affordable payment plan. I’m truly grateful and highly recommend their support.`
+    name: "S. N. Chowdhury",
+    title: "Doctor of Business Administration(DBA), USA | EB2-NIW Under Review",
+    text: "As a DBA student in the U.S., I was unsure whether I qualified for the EB2-NIW category—but Next Step NIW changed everything. They provided clear, honest guidance and crafted a personalized strategy based on my academic background. Highly recommended for any graduate student pursuing the NIW path!",
   }
-]
+];
+
 
 export default function TestimonialsPage() {
   return (
@@ -57,7 +44,7 @@ export default function TestimonialsPage() {
             key={idx}
             className="bg-white border-l-4 border-indigo-500 shadow-md p-6 md:p-8 rounded-xl space-y-2"
           >
-            <p className="text-lg leading-relaxed text-gray-800 whitespace-pre-line">“{t.quote}”</p>
+            <p className="text-lg leading-relaxed text-gray-800 whitespace-pre-line">“{t.text}”</p>
             <div className="text-right">
               <p className="text-lg font-semibold text-indigo-700">{t.name}</p>
               <p className="text-sm text-gray-500">{t.title}</p>
